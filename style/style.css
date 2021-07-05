@@ -1,6 +1,7 @@
 body {
     text-align: center;
     background-color: rgb(250 248 239);
+    font-family: "Clear Sans","Helvetica Neue",Arial,sans-serif
   }
 
 #col{
@@ -17,4 +18,17 @@ body {
   display: inline-grid;
   background-color: #bbada0;
   text-align: center;
+}
+.title {
+  font-size: 80px;
+    font-weight: bold;
+    margin: 0;
+    display: block;
+    color: #776e65;
+    margin-top: 70px;
+}
+.score{
+  background-color: #bbada0;
+
+  margin: 40px;
 }
