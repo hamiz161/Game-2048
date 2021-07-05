@@ -1,0 +1,20 @@
+body {
+    text-align: center;
+    background-color: rgb(250 248 239);
+  }
+
+#col{
+  height: 80px;
+  width: 80px;
+  font-weight: 800;
+  font-size: 45px;
+  margin: 5px;
+  background-color:#cdc1b4;
+  color: white;
+  text-align: center;
+}
+#row {
+  display: inline-grid;
+  background-color: #bbada0;
+  text-align: center;
+}
