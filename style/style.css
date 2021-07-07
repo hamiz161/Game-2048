@@ -18,6 +18,7 @@ body {
   display: inline-grid;
   background-color: #bbada0;
   text-align: center;
+  
 }
 .title {
   font-size: 80px;
@@ -28,7 +29,20 @@ body {
     margin-top: 70px;
 }
 .score{
-  background-color: #bbada0;
+  margin: 20px;
+  font-size: 19px;
+  font-style: italic;
+  color: red;
+}
+.btnNewGame{
 
-  margin: 40px;
+  
+  font-family: 'Helvetica', 'Arial', sans-serif;
+  display: inline-block;
+  padding: 1em 2em;
+  margin-bottom: 60px;
+  background-color: #5a4a4b;
+  color: #fff;
+  border-radius: 20px;
+  border: none;
 }

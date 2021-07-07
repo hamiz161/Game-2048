@@ -23,12 +23,11 @@ class App extends React.Component {
             <section>
               <Header score ={score}/>
             </section>
-            
             {matrix.map((row,index) => {
               return (
                 <div id ="row" index = {index}>
                   {row.map((digit,index2) => (
-                    <Cell num={digit} key ={index2}/>
+                    <Cell num={digit} clef ={index2}/>
                   ))}
                 </div>
               );

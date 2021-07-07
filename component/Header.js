@@ -5,8 +5,8 @@ class Header extends React.Component {
         return (
           <div>
               <h1 className ="title">2048</h1>
-              <p className= "score">Score : {this.props.score}
-              <button type="button" class="btn btn-outline-secondary">New Game</button></p>
+              <p className= "score">Score : {this.props.score}</p>
+                <button type = "button"className="btnNewGame" >New Game</button>
             </div>
         
         )
