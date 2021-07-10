@@ -1,32 +1,51 @@
-body {
-    text-align: center;
-    background-color: rgb(250 248 239);
-    font-family: "Clear Sans","Helvetica Neue",Arial,sans-serif
-  }
-
-#col{
-  height: 80px;
-  width: 80px;
-  font-weight: 800;
-  font-size: 45px;
-  margin: 5px;
-  background-color:#cdc1b4;
-  color: white;
-  text-align: center;
-}
-#row {
-  display: inline-grid;
-  background-color: #bbada0;
-  text-align: center;
+html{
+  background-color: rgb(250 248 239);
   
 }
+#root{
+  background-color: rgb(250 248 239);
+  text-align: center;
+  
+  font-family: 'Clear Sans', 'Helvetica Neue', Arial, sans-serif;
+}
+
+.container {
+  text-align: center;
+ 
+}
+
+.col {
+  border: 3px solid ;
+  height: 160px !important;
+  max-width: 160px !important;
+  font-weight: 500;
+  font-size: 100px;
+  background-color: #c7baae;
+  color: #5f5f5f;
+  text-align: center;
+  --bs-gutter-x: -0.5rem;
+}
+
+.col > div {
+  background-color: #cdc1b4;
+  min-width: 100% !important;
+  min-height: 100% !important;
+  
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  --bs-gutter-x: -0.5rem;
+}
+
 .title {
   font-size: 80px;
-    font-weight: bold;
-    margin: 0;
-    display: block;
-    color: #776e65;
-    margin-top: 70px;
+  font-weight: bold;
+  margin: 0;
+  display: block;
+  color: #776e65;
+  margin-top: 70px;
 }
 .score{
   margin: 20px;
@@ -34,15 +53,69 @@ body {
   font-style: italic;
   color: red;
 }
-.btnNewGame{
-
-  
+.btnNewGame {
   font-family: 'Helvetica', 'Arial', sans-serif;
   display: inline-block;
   padding: 1em 2em;
   margin-bottom: 60px;
-  background-color: #5a4a4b;
+  background-color: #8f7a66;
   color: #fff;
   border-radius: 20px;
   border: none;
+  font-weight: bold;
+
+}
+.footer{
+  margin-top: 100px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  
+}
+.playInst{
+  margin-top: 100px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-family: Snell Roundhand, cursive;
+}
+
+.cell-2 {
+  background-color: #f6efe9!important;
+}
+
+.cell-4 {
+  background-color: #f6ddb1!important;
+}
+
+.cell-8 {
+  background-color: #f3b27a !important;
+}
+
+.cell-16 {
+  background-color: #fe8647 !important;
+}
+
+.cell-32 {
+  background-color: #f77c5f!important;
+}
+.cell-64 {
+  background-color: #f75f3b!important;
+}
+
+.cell-128 {
+  background-color:#ffdf77 !important;
+}
+
+.cell-256 {
+  background-color: #f8cb3c !important;
+}
+.cell-512 {
+  background-color: #edc950 !important;
+}
+
+.cell-1024 {
+  background-color: #33b5e5 !important;
+}
+
+.cell-2048 {
+  background-color: #1830a7 !important;
 }
